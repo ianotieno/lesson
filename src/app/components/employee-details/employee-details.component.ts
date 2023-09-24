@@ -12,22 +12,7 @@ interface Employee{
 })
 export class EmployeeDetailsComponent implements OnInit{
   
-  employees:Employee[]=[
-    {
-    id:1,
-    name:"tom",
-    age:20
-  },
-  {
-    id:2,
-    name:"mary",
-    age:30
-  },
-  {
-    id:4,
-    name:"paul",
-    age:22
-  }]
+  public employees=[]
   ngOnInit(){
     
   }
