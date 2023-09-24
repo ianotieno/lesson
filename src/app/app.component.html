@@ -7,4 +7,6 @@
 <br>
 <input type="text" placeholder="Enter Favourite" [(ngModel)]="favouriteAnimal"/>
 <p>Your Favourate animal is :{{favouriteAnimal}}</p>
+<input type="text" #beavername/>
+<button (click)="handleClick(beavername)">Submit</button>
 </diV>

@@ -11,4 +11,8 @@ export class AppComponent {
  imgScr:string="https://img.freepik.com/premium-vector/cartoon-happy-beaver-white-background_194935-62.jpg?w=740"
   constructor(){}
   favouriteAnimal:string =" "
+  beavername:string=""
+  handleClick(value:any){
+    console.log(value)
+  }
 }
