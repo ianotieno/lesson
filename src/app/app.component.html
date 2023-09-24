@@ -22,5 +22,10 @@
       <td [class.cool-bool]="person.isCool">{{person.name}}</td>
       <td>{{person.sex}}</td>
     </tr>
+    <tr *ngFor="let person of persons; let i =index">
+      <td >{{person.id}}</td>
+      <td [ngClass]="{'cool-bool': person.isCool }">{{person.name}}</td>
+      <td>{{person.sex}}</td>
+    </tr>
   </tbody>
 </table>
