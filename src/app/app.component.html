@@ -10,3 +10,17 @@
 <input type="text" #beavername/>
 <button (click)="handleClick(beavername)">Submit</button>
 </diV>
+<table>
+  <thead>
+    <th>Index</th>
+    <th>name</th>
+    <th>sex</th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let person of persons; let i =index">
+      <td>{{person.id}}</td>
+      <td>{{person.name}}</td>
+      <td>{{person.sex}}</td>
+    </tr>
+  </tbody>
+</table>
