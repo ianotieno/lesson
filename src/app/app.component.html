@@ -1,43 +1,6 @@
 <router-outlet></router-outlet>
 <diV>
-<h1 [innerHtml]="title" ></h1>
+<h1 >{{title}}</h1>
 <img [src]="imgScr" sizes="2%"/>
-<br>
-<label>Enter your Favourite:</label>
-<br>
-<input type="text" placeholder="Enter Favourite" [(ngModel)]="favouriteAnimal"/>
-<p>Your Favourate animal is :{{favouriteAnimal}}</p>
-<input type="text" #beavername/>
-<button (click)="handleClick(beavername)">Submit</button>
-</diV>
-<table>
-  <thead>
-    <th>Index</th>
-    <th>name</th>
-    <th>sex</th>
-  </thead>
-  <tbody>
-    <tr *ngFor="let person of persons; let i =index">
-      <td >{{person.id}}</td>
-      <td [class.cool-bool]="person.isCool">{{person.name}}</td>
-      <td>{{person.sex}}</td>
-    </tr>
-    <tr *ngFor="let person of persons; let i =index">
-      <td >{{person.id}}</td>
-      <td [ngClass]="{'cool-bool': person.isCool }">{{person.name}}</td>
-      <td>{{person.sex}}</td>
-    </tr>
-  </tbody>
-</table>
-<label>Enter an animal name to see magic: </label>
-<input type="text" [value]="animal" (input)="handleChange($event)"/>
-<p>and the animal name you enterd is :{{animal}}</p>
-<ng-container *ngIf="animal.length; then animallist; else noanimal"></ng-container>
-<ng-template #animallist>
-  <p>all animals are available</p>
-</ng-template>
-<ng-template #noanimal>
-  <p>all are not animals are available</p>
-</ng-template>
 <app-employee></app-employee>
 <app-employee-details></app-employee-details>

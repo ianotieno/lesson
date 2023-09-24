@@ -17,7 +17,7 @@ export class AppComponent {
 handleChange(event: any) {
 this.animal=event?.target.value;
 }
- title:string ="Cute Beaver"
+ title:string ="Cute Beaver Employees"
 
  imgScr:string="https://img.freepik.com/premium-vector/cartoon-happy-beaver-white-background_194935-62.jpg?w=740"
   constructor(){}
