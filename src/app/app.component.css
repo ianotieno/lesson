@@ -27,7 +27,7 @@
   .navbar {
     background-color: #333; /* Background color for the navbar */
     padding: 10px; /* Add padding to space out the links */
-    text-align: right; /* Align the links to the right */
+    text-align: left; /* Align the links to the right */
   }
   
   .navbar a {
