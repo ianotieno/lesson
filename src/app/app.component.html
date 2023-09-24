@@ -1,8 +1,9 @@
-<router-outlet>
- 
-</router-outlet>
+
 <diV>
 <h1 >{{title}}</h1>
 <img [src]="imgScr" sizes="2%"/>
-<app-employee></app-employee>
-<app-employee-details></app-employee-details>
+<nav>
+  <a routerLink="/employees" routerLinkActive="active ">Employee</a>
+  <a routerLink="/employee-details" routerLinkActive="active">Employee Details</a>
+</nav>
+<router-outlet></router-outlet>
