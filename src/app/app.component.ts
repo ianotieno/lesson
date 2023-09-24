@@ -7,6 +7,7 @@ interface Person{
   isCool:boolean
 }
 
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -53,4 +54,5 @@ persons:Person[]=[{
 },]
 
 animal: string=""
+
 }
