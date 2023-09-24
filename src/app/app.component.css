@@ -1,3 +1,46 @@
-.cool-bool{
-    background-color: blue;
-}
+/* app.component.css */
+
+.small-image {
+    width: 150px; /* Set the width to your desired size */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+    border-radius: 50%; /* Apply a border radius for a circular image */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a shadow for a subtle effect */
+    float: right;
+  }
+  /* app.component.css */
+
+/* app.component.css */
+
+.title-container {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  .title-container h2 {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+  }
+  
+  .navbar {
+    background-color: #333; /* Background color for the navbar */
+    padding: 10px; /* Add padding to space out the links */
+    text-align: right; /* Align the links to the right */
+  }
+  
+  .navbar a {
+    color: #fff; /* Text color for the links */
+    text-decoration: none; /* Remove underlines from links */
+    margin-left: 10px; /* Add spacing between links */
+    font-weight: bold; /* Apply bold font weight */
+  }
+  
+  .navbar a.active {
+    background-color: #f2f2f2; /* Background color for active link */
+    color: #333; /* Text color for active link */
+    border-radius: 4px; /* Apply border radius to active link */
+    padding: 4px 8px; /* Add padding to active link */
+  }
+  

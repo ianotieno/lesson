@@ -1,5 +1,7 @@
-<h2>Employee List</h2>
-<ul *ngFor="let employee of employees">
-  <li>{{employee.name}}</li>
- 
-</ul>
+
+<h2>Employee name</h2>
+<mat-list>
+  <mat-list-item *ngFor="let employee of employees; let i=index">
+    <p matLine> {{i +1 }}.{{ employee.name }}</p>
+  </mat-list-item>
+</mat-list>

@@ -9,6 +9,8 @@ import { EmployeeDetailsComponent } from './components/employee-details/employee
 import { EmployeeService } from './services/employee.service';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatTableModule } from '@angular/material/table';
+import{ MatListModule} from '@angular/material/list'
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +23,8 @@ import { MatTableModule } from '@angular/material/table';
     FormsModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    MatTableModule
+    MatTableModule,
+    MatListModule
   ],
   providers: [EmployeeService],
   bootstrap: [AppComponent]
