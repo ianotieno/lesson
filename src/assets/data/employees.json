@@ -1,6 +1,6 @@
-      [{"id":1, "name":"Tony Omondi","age":44},
-      {"id":2, "name":"Rose Mary","age":48},
-      {"id":3, "name":"Paul Ngei","age":42},
-      {"id":4, "name":"Phillip Otieno","age":30},
-      {"id":5,"name":"Hellen Irungu","age":50}
+      [{"id":1, "name":"Tony Omondi","age":44,"salary":70000,"JobGroup":"K"},
+      {"id":2, "name":"Rose Mary","age":48,"salary":90000,"JobGroup":"O"},
+      {"id":3, "name":"Paul Ngei","age":42,"salary":60000,"JobGroup":"V"},
+      {"id":4, "name":"Phillip Otieno","age":30,"salary":50000,"JobGroup":"M"},
+      {"id":5,"name":"Hellen Irungu","age":50,"salary":55000,"JobGroup":"J"}
     ]

@@ -1,5 +1,7 @@
 export interface EmployeeInterface{
     id:number,
     name:string,
-    age:number
+    age:number,
+    salary:number
+    JobGroup:string
 }
