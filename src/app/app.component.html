@@ -29,3 +29,13 @@
     </tr>
   </tbody>
 </table>
+<label>Enter an animal name to see magic: </label>
+<input type="text" [value]="animal" (input)="handleChange($event)"/>
+<p>and the animal name you enterd is :{{animal}}</p>
+<ng-container *ngIf="animal.length; then animallist; else noanimal"></ng-container>
+<ng-template #animallist>
+  <p>all animals are available</p>
+</ng-template>
+<ng-template #noanimal>
+  <p>all are not animals are available</p>
+</ng-template>
