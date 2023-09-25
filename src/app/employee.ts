@@ -4,4 +4,5 @@ export interface EmployeeInterface{
     age:number,
     salary:number
     JobGroup:string
+    post: string
 }

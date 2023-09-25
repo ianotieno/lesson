@@ -1,6 +1,8 @@
-      [{"id":1, "name":"Tony Omondi","age":44,"salary":70000,"JobGroup":"K"},
-      {"id":2, "name":"Rose Mary","age":48,"salary":90000,"JobGroup":"O"},
-      {"id":3, "name":"Paul Ngei","age":42,"salary":60000,"JobGroup":"V"},
-      {"id":4, "name":"Phillip Otieno","age":30,"salary":50000,"JobGroup":"M"},
-      {"id":5,"name":"Hellen Irungu","age":50,"salary":55000,"JobGroup":"J"}
+     
+     
+     [{"id":1, "name":"Tony Omondi","age":44,"salary":"70,000","JobGroup":"K","Post":"Director"},
+      {"id":2, "name":"Rose Mary","age":48,"salary":"90,000","JobGroup":"O","Post":"Ass Director"},
+      {"id":3, "name":"Paul Ngei","age":42,"salary":"60,000","JobGroup":"V","Post":"Manager"},
+      {"id":4, "name":"Phillip Otieno","age":30,"salary":"50,000","JobGroup":"M","Post":"Accountant"},
+      {"id":5,"name":"Hellen Irungu","age":50,"salary":"55,000","JobGroup":"J","Post":"Human Resource"}
     ]
